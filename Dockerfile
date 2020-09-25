@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM python
 
 RUN apt-get -y update
 RUN apt-get -y install redis-server
